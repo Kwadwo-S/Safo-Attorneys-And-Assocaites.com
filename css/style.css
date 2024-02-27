@@ -228,7 +228,7 @@ header */
       -ms-flex-pack: justify;
           justify-content: space-between;
   z-index: 1000;
-  background: var(--white);
+  background: linear-gradient(to bottom right,#ebf0f8, #ccfbff);
 }
 
 .header .logo {
@@ -262,6 +262,7 @@ header */
   cursor: pointer;
   text-align: center;
   margin-left: .3rem;
+  border-radius: 30px;
 }
 
 .header .icons div:hover {
@@ -653,6 +654,7 @@ home */
  background: #007fff;
  text-decoration: none;
  color:#ffffff;
+ border-radius: 50px;
 }
 .home .caption a:hover{
  background-color: var(--dblue);
@@ -680,16 +682,17 @@ home */
  position: absolute;
  z-index:2;
  top:50%;
- height:40px;
- width: 40px;
+ height:30px;
+ width: 30px;
  margin-top: -20px;
  color:#ffffff;
  background-color: #007fff;
  text-align: center;
- line-height: 40px;
+ line-height: 30px;
  font-size:20px;
  cursor:pointer;
  transition: all .5s ease;
+ border-radius: 30px;
 }
 .home .controls .prev:hover,
 .home .controls .next:hover{
@@ -778,6 +781,7 @@ home */
 .about .btn {
   color: var(--white);
   background: var(--yellow);
+  border-radius: 50px;
 }
 .about .btn:hover {
   background: var(--dblue);
