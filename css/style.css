@@ -106,6 +106,7 @@ top-bar */
   color: var(--black);
 }
 
+
 .top-bar .logot h2 {
   letter-spacing: 1px;
   font-family: "Playfair Display", serif;
@@ -113,19 +114,18 @@ top-bar */
   font-style: italic;
   margin: 12px 0 0 20px;
   color: var(--black);
-  font-size: 22px;
+  font-size: 22.95px;
   justify-content: center;
-  /* line-height: 55px; */
-  font-weight: 500;
-}
+  text-shadow: 2px 2px 2px var(--yellow);
 
+}
 
 
 .top-bar .info {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-left: 150px;
+  margin-left: 120px;
 }
 
 .top-bar .texti {
@@ -154,7 +154,7 @@ top-bar */
   display: flex;
   font-size: 0;
   justify-content: flex-end;
-  margin-left: 150px;
+  margin-left: 120px;
 }
 
 .top-bar .socialt a {
@@ -728,6 +728,7 @@ home */
 .home .indicator div.active{
  background-color: var(--dblue);
 }
+
 
 /*responsive*/
 @media(max-width: 767px){
