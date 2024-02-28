@@ -53,22 +53,24 @@ section {
   border-left: 1rem solid var(--yellow);
 }
 
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 3rem;
-  background: var(--black);
+  background: var(--yellow);
   color: var(--white);
   cursor: pointer;
   font-size: 1.7rem;
   text-transform: capitalize;
   -webkit-transition: .2s linear;
   transition: .2s linear;
+  border-radius: 50px;
+
 }
 
 .btn:hover {
-  background: var(--yellow);
-  color: var(--black);
+  background: var(--dblue);
 }
 
 @-webkit-keyframes fadeIn {
@@ -357,7 +359,6 @@ header */
 .header .login-form h3 {
   font-size: 2.5rem;
   color: var(--black);
-  text-transform: capitalize;
   padding-bottom: 1rem;
   text-transform: uppercase;
 }
@@ -650,11 +651,12 @@ home */
 .home .caption a{
   font-size: 20px;
  display: inline-block;
- padding:10px 30px;
+ padding:10px 10px;
  background: #007fff;
  text-decoration: none;
  color:#ffffff;
  border-radius: 50px;
+ text-align: center;
 }
 .home .caption a:hover{
  background-color: var(--dblue);
@@ -740,6 +742,92 @@ home */
 		display: none;
 	}
 }
+/* 
+Appointment
+Appointment
+Appointment */
+
+/* 
+.header .login-form {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 40rem;
+  background: var(--white);
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  padding: 2rem;
+  text-align: center;
+  -webkit-animation: fadeIn .2s linear;
+          animation: fadeIn .2s linear;
+  display: none;
+} */
+
+
+
+.appointy {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px 20px;
+  background: linear-gradient(to bottom right,#ebf0f8, #ccfbff);
+}
+  
+.appointy h3 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--yellow);
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-style: Italic;
+}
+
+.appointment{
+  width: 50%;
+  margin: auto;
+}
+
+
+.appointment .box {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  background: var(--light-bg);
+  font-size: 18px;
+  color: var(--light-color);
+  margin: .7rem 0;
+}
+
+.appointment .boxh {
+  width: 100%;
+  background: var(--light-bg);
+  font-size: 18px;
+  color: var(--light-color);
+  margin: .7rem 0;
+  padding: 1.2rem 1.4rem 10rem;
+}
+
+.appointment .btn {
+  /* width: 50%; */
+  font-size: 20px;
+  margin: 20px 0 60px 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+@media(max-width:991px) {
+  
+.appointment{
+  width: 75%;
+  }
+}
+
+
 
 /* About */
 
@@ -1503,6 +1591,24 @@ color: var(--yellow);
   .about .row .content h3 {
     font-size: 2.5rem;
   }
+}
+
+
+/* 
+ Whatsapp Floating
+ Whatsapp Floating  */
+
+.float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #444;
 }
 
   
