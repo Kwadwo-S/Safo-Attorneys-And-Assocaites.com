@@ -118,8 +118,7 @@ top-bar */
   color: var(--black);
   font-size: 22.95px;
   justify-content: center;
-  text-shadow: 2px 2px 2px var(--yellow);
-
+  text-shadow: 2px 2px 2px rgb(137, 251, 245);
 }
 
 
