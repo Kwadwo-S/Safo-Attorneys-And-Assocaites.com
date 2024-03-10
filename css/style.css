@@ -119,6 +119,7 @@ top-bar */
   font-size: 22.95px;
   justify-content: center;
   text-shadow: 2px 2px 2px rgb(137, 251, 245);
+
 }
 
 
@@ -298,6 +299,7 @@ header */
   background: linear-gradient(to bottom right,#ebf0f8, #ccfbff);
   height: 100%;
   text-align: center;
+  border-radius: 150px 0 150px 150px;
   z-index: 1100;
   padding: 0 2rem;
   padding-top: 5rem;
@@ -400,6 +402,7 @@ header */
     height: 100%;
     align-items: center;
     text-align: center;
+    border-radius: 150px 0 150px 150px;
     z-index: 1100;
     padding: 0 2rem;
     padding-top: 5rem;
@@ -412,27 +415,16 @@ header */
 display: block;
 }
 
-  }
-   
-  .header .navbar a {
+
+ .header .navbar a {
     display: block;
     margin: 2rem;
   }
 
-  
-
-
-@media (max-width: 768px) {
-
-
-  .header .search-form {
-    width: 90%;
-  }
-  .header .login-form {
-    width: 90%;
-  }
-  
 }
+   
+  
+
 
 @media (max-width: 450px) {
   html {
@@ -664,6 +656,7 @@ Appointment */
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 20px 20px;
+  background-repeat: no-repeat;
   background: linear-gradient(to bottom right,#ebf0f8, #ccfbff);
 }
   
@@ -682,6 +675,8 @@ Appointment */
 .appointment{
   width: 50%;
   margin: auto;
+  background-repeat: no-repeat;
+
 }
 
 
