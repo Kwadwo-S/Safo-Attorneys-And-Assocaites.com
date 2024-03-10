@@ -632,44 +632,38 @@ Appointment
 Appointment
 Appointment */
 
-/* 
-.header .login-form {
-  position: absolute;
-  top: 120%;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 40rem;
-  background: var(--white);
-  -webkit-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
-  padding: 2rem;
-  text-align: center;
-  -webkit-animation: fadeIn .2s linear;
-          animation: fadeIn .2s linear;
-  display: none;
-} */
-
-
 
 .appointy {
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 20px 20px;
-  background-repeat: no-repeat;
-  background: linear-gradient(to bottom right,#ebf0f8, #ccfbff);
+  background-size: cover;
+
 }
+/* 
+.appointy::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: -webkit-gradient(linear, left top, right top, from(#ccfbff), to(transparent));
+background: linear-gradient(90deg, #ccfbff, transparent);
+} */
   
 .appointy h3 {
   margin-top: 20px;
   margin-bottom: 30px;
   text-align: center;
   font-size: 2.2rem;
-  color: var(--yellow);
-  padding-bottom: 1rem;
+  padding: 5px 0;
+  color: var(--white);
   text-transform: uppercase;
   line-height: 1.5;
-  font-style: Italic;
+  font-weight: 350;
+  background: var(--yellow);
+  border-radius: 50px;
 }
 
 .appointment{
